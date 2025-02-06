@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link href="css/css-gg.css" rel="stylesheet">
+    <link rel="shortcut icon" href="resources/logito.svg" type="image/svg">
+    <link  rel="stylesheet" href="css/Site.css">
+    <script src="js/site.js"></script>
+</head>
+<body>
+    <div class="main-content">
+        
+        <!-- Perfil Fijo a la Izquierda -->
+        <aside class="profile">
+            <img src="resources/avatar.png" alt="Levi Alberto Ruiz López" class="my-photo">
+            <h2>Levi Alberto Ruiz López</h2>
+            <p class="title">Desarrollador de Software</p>
+
+            <ul class="contacts-block">
+                <li class="contacts-block-item"><i class="gg-mail"></i><a href="mailto:levialbertoruiz.2004@gmail.com">levialbertoruiz.2004@gmail.com</a></li>
+                <li class="contacts-block-item"><i class="gg-phone"></i><a href="tel:+521234567890">+52 2229141895</a></li>
+            </ul>
+
+            <button class="btn">Descargar CV</button>
+        </aside>
+
+        <div class="resume">
+            <header>
+                <div class="menu-circle">
+                    <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                </div>
+                <div class="inner-menu js-menu">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="template.html">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portofolio.html">Portafolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+            <section class="portfolio">
+                <h2 class="title">Portafolio</h2>
+                <div class="projects-container">
+                    <div class="project">
+                        <img src="resources/project1.png" alt="Proyecto 1">
+                        <h3>Proyecto 1</h3>
+                        <p>Descripción del proyecto...</p>
+                    </div>
+
+                    <div class="project">
+                        <img src="resources/project2.png" alt="Proyecto 2">
+                        <h3>Proyecto 2</h3>
+                        <p>Descripción del proyecto...</p>
+                        <a href="proyecto2.html" class="btn-view">Ver Proyecto</a>
+                    </div>
+
+                    <!-- Agrega más proyectos si es necesario -->
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
