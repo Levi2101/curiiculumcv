@@ -493,3 +493,8 @@ footer {
     color: #000;
 }
 
+img {
+    width: 100%; /* O un tamaño fijo como 300px */
+    height: auto; /* Mantiene la proporción original */
+    object-fit: contain; /* Evita que se deforme */
+}
