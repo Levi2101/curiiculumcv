@@ -368,7 +368,7 @@ footer {
 
 .contacts-block {
     list-style: none;
-    padding: 7;
+    padding: 7px;
     margin-bottom: 0.5rem;
     overflow: hidden;
 }
